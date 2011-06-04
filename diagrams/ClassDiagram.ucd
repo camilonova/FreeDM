@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="ClassDiagram" foregroundRGB="255,255,255" id="{UMLID=_P2hisKBsEdyoXdBdYabErg,JavaID=}" metadata="uml2-1.0" initialized="true" scrolledX="893" scrolledY="400" tag="1000" key="32303037303632392046726565444D2F63616D696C6F">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="User" location="500,225" size="299,410" stereotype="" id="{UMLID=_qoE5oKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User}" runTimeClassModel="getFullName(),getEmail(),getPassword(),setUserName(Ljava.lang.String;),getRole(),setEmail(Ljava.lang.String;),User(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),password,id,setFullName(Ljava.lang.String;),setPassword(Ljava.lang.String;),email,getId(),getUserName(),setId(Ljava.lang.Long;),role,userName,fullName,User(),setRole(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="{UMLID=_qyeLwKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#id}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="email" id="{UMLID=_q4n3EKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#email}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fullName" id="{UMLID=_q4ukwKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#fullName}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="{UMLID=_q4vy4KBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#password}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userName" id="{UMLID=_q4sIgKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#userName}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="role" id="{UMLID=_q4qTUKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#role}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,252">
+      <children xsi:type="editmodel:MethodEditModel" name="User" id="{UMLID=_rdI5YKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#User()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPassword" id="{UMLID=_q_NAMKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#setPassword(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="{UMLID=_q5VowKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#getId()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRole" id="{UMLID=_rFGz4KBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#setRole(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmail" id="{UMLID=_q4xBAKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#getEmail()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="{UMLID=_vQSr0KB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User#setId(Ljava.lang.Long;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFullName" id="{UMLID=_q_J84KBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#getFullName()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEmail" id="{UMLID=_q5YsEKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#setEmail(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassword" location="97,240" id="{UMLID=_rXLbUKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#getPassword()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFullName" id="{UMLID=_q5I0cKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#setFullName(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUserName" id="{UMLID=_rLizEKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#getUserName()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUserName" id="{UMLID=_rXN3kKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#setUserName(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRole" id="{UMLID=_q5SlcKBsEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User#getRole()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="User" id="{UMLID=_vKzu4KB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User#User(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_5eKOAKB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.session/Authenticator@ownedEnd}" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="455,222" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="0,10" id="{UMLID=_5BvXwKB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.session/Authenticator@ownedEnd|edu.axiacore.freedm.entity/User#user}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - user" location="455,242" size="38,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="486,215" size="7,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="369,143" id="{UMLID=_5eKOAaB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.session/Authenticator@ownedEnd|edu.axiacore.freedm.session/Authenticator#ownedEnd}"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_OPu4IKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserHome@ownedEnd}" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="467,612" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="0,400" id="{UMLID=_N4hSAKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserHome@ownedEnd|edu.axiacore.freedm.entity/User#user}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - user" location="455,605" size="38,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="486,632" size="7,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="402,0" id="{UMLID=_OPu4IaB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserHome@ownedEnd|edu.axiacore.freedm.controller.user/UserHome#ownedEnd}"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_8wgzwKBuEdyoXdBdYabErg,JavaID=edu.axiacore.freedm.entity/User->java.io/Serializable}" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.2/@children.1" sourceEnd="//@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="258,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="39,41"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Document" location="820,225" size="341,354" stereotype="" id="{UMLID=_04njEKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document}" runTimeClassModel="lastModification,Document,setFileName(Ljava.lang.String;),setUserId(Ljava.lang.Long;),getLastModification,getFileName(),id,setLastModification,getId(),userId,setId(Ljava.lang.Long;),fileName,currentVersion,setCurrentVersion(Ljava.lang.Long;),getCurrentVersion(),getUserId(),Document()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="currentVersion" id="{UMLID=_3FRA0KBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#currentVersion}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileName" id="{UMLID=_3FPLoKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#fileName}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="{UMLID=_2_qIEKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#id}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lastModification" id="{UMLID=_20RXcKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#lastModification}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userId" id="{UMLID=_3FN9gKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#userId}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="150,216">
+      <children xsi:type="editmodel:MethodEditModel" name="Document" id="{UMLID=_4KAbUKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#Document()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="{UMLID=_3n5MwKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#setId(Ljava.lang.Long;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentVersion" id="{UMLID=_3K_OUKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#getCurrentVersion()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileName" id="{UMLID=_3LBqkKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#getFileName()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="{UMLID=_4KBpcKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#getId()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastModification" id="{UMLID=_3Qv4EKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#getLastModification()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUserId" id="{UMLID=_4J9_EKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#getUserId()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLastModification" id="{UMLID=_4EOjcKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#setLastModification(Ljava.util.Date;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCurrentVersion" id="{UMLID=_4qKiEKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#setCurrentVersion(Ljava.lang.Long;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUserId" id="{UMLID=_3LEt4KBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#setUserId(Ljava.lang.Long;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFileName" id="{UMLID=_4KEFsKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#setFileName(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Document" id="{UMLID=_3FSO8KBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document#Document(Ljava.lang.Long;Ljava.lang.Long;Ljava.lang.String;Ljava.lang.Long;Ljava.util.Date;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_2IpnkKBxEdy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/Document->java.io/Serializable}" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="43,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,41"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.1/@sourceConnections.0" name="Serializable" location="719,70" size="188,41" id="{UMLID=_8wgMsKBuEdyoXdBdYabErg,JavaID=java.io/Serializable}" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Authenticator" location="30,39" size="379,143" stereotype="" id="{UMLID=_LOClkKB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.session/Authenticator}" runTimeClassModel="identity,authenticate(),user,log,entityManager">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,77">
+      <children xsi:type="editmodel:AttributeEditModel" name="log" id="{UMLID=_LUMQ4KB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.session/Authenticator#log}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="identity" id="{UMLID=_LOji8KB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.session/Authenticator#identity}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="entityManager" id="{UMLID=_LZfAkKB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.session/Authenticator#entityManager}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="user" id="{UMLID=_5BvXwKB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.session/Authenticator@ownedEnd|edu.axiacore.freedm.entity/User#user}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,18">
+      <children xsi:type="editmodel:MethodEditModel" name="authenticate" id="{UMLID=_LfRfgKB1Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.session/Authenticator#authenticate()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="UserHome" location="21,700" size="412,179" id="{UMLID=_jZiY4KB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserHome}" runTimeClassModel="getUserId(),createInstance(),setUserId(Ljava.lang.Long;),user,getDefinedInstance()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="61,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="user" id="{UMLID=_N4hSAKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserHome@ownedEnd|edu.axiacore.freedm.entity/User#user}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="150,108">
+      <children xsi:type="editmodel:MethodEditModel" name="createInstance" id="{UMLID=_j2BgkKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserHome#createInstance()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDefinedInstance" id="{UMLID=_j1_rYKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserHome#getDefinedInstance()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUserId" id="{UMLID=_j2D80KB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserHome#getUserId()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUserId" id="{UMLID=_jfhsIKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserHome#setUserId(Ljava.lang.Long;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UserList" location="-20,347" size="395,166" id="{UMLID=_pDQacKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserList}" runTimeClassModel="getMaxResults(),RESTRICTIONS,getUser(),getRestrictions(),getEjbql(),user">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,41">
+      <children xsi:type="editmodel:AttributeEditModel" name="RESTRICTIONS" id="{UMLID=_pDmYsKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserList#RESTRICTIONS}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="user" id="{UMLID=_pDm_wKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserList@ownedEnd|edu.axiacore.freedm.entity/User#user}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,77">
+      <children xsi:type="editmodel:MethodEditModel" name="getEjbql" id="{UMLID=_pDqqIKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserList#getEjbql()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxResults" id="{UMLID=_pJPtsKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserList#getMaxResults()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRestrictions" id="{UMLID=_pDtGYKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserList#getRestrictions()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUser" id="{UMLID=_pDoN4KB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.user/UserList#getUser()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_pLyrYKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserList@ownedEnd}" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="442,417" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="395,83" id="{UMLID=_pLyrYaB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserList@ownedEnd|edu.axiacore.freedm.controller.user/UserList#ownedEnd}" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="0,205" id="{UMLID=_pDm_wKB4Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.entity/User@user+edu.axiacore.freedm.controller.user/UserList@ownedEnd|edu.axiacore.freedm.entity/User#user}" multiplicityLabel="//@children.5/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - user" location="455,410" size="38,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="486,437" size="7,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.0" name="UploadFile" location="1638,80" size="459,223" id="{UMLID=_gqsXkKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile}" runTimeClassModel="upload(),getFileSize(),getFile(),getContentType(),setFileName(Ljava.lang.String;),setContentType(Ljava.lang.String;),setFile(Ljava.io.InputStream;),getFileName(),setFileSize(Ljava.lang.Integer;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,162">
+      <children xsi:type="editmodel:MethodEditModel" name="getContentType" id="{UMLID=_g81QcKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#getContentType()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFile" id="{UMLID=_gsFesKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#getFile()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileName" id="{UMLID=_gxrJUKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#getFileName()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileSize" id="{UMLID=_g3grkKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#getFileSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContentType" id="{UMLID=_g3jH0KB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#setContentType(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFile" id="{UMLID=_gxtlkKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#setFile(Ljava.io.InputStream;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFileName" location="6,90" id="{UMLID=_g83ssKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#setFileName(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFileSize" id="{UMLID=_gsJJEKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#setFileSize(Ljava.lang.Integer;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="upload" id="{UMLID=_hCpkkKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFile#upload()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UploadFileBean" location="1619,419" size="496,441" stereotype="" id="{UMLID=_i8s2cKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean}" runTimeClassModel="getFileSize(),getFile(),getContentType(),setFileName(Ljava.lang.String;),contentType,setContentType(Ljava.lang.String;),log,getFileName(),setFileSize(Ljava.lang.Integer;),upload(),fileSize,saveFile(),facesMessages,file,fileName,path,setFile(Ljava.io.InputStream;),maxSize,documentCommand">
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,167">
+      <children xsi:type="editmodel:AttributeEditModel" name="maxSize" id="{UMLID=_jIsEAKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#maxSize}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="path" id="{UMLID=_jC1ToKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#path}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="log" id="{UMLID=_jC3I0KB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#log}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="facesMessages" id="{UMLID=_i9LXkKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#facesMessages}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="file" id="{UMLID=_jCxCMKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#file}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="contentType" id="{UMLID=_jC2hwKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#contentType}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileName" id="{UMLID=_jC0FgKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#fileName}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileSize" id="{UMLID=_i9KJcKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#fileSize}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="documentCommand" id="{UMLID=_yRnRUKCBEdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommand@documentCommand+edu.axiacore.freedm.controller.uploadFile/UploadFileBean@ownedEnd|edu.axiacore.freedm.controller.document/DocumentCommand#documentCommand}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="180,226">
+      <children xsi:type="editmodel:MethodEditModel" name="upload" id="{UMLID=_jfKDQKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#upload()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveFile" id="{UMLID=_jOMPEKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#saveFile()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFile" id="{UMLID=_jZbOsKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#setFile(Ljava.io.InputStream;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFile" id="{UMLID=_j09UIKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#getFile()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContentType" id="{UMLID=_jZYycKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#getContentType()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContentType" id="{UMLID=_jT3ZQKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#setContentType(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileName" id="{UMLID=_jZWWMKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#getFileName()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFileName" id="{UMLID=_jka9wKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#setFileName(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileSize" id="{UMLID=_j0_wYKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#getFileSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFileSize" id="{UMLID=_jIvHUKB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean#setFileSize(Ljava.lang.Integer;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_i8xH4KB5Edy6AvU5XlvuZQ,JavaID=edu.axiacore.freedm.controller.uploadFile/UploadFileBean->edu.axiacore.freedm.controller.uploadFile/UploadFile}" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="248,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="229,223"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" name="DocumentCommand" location="939,837" size="528,156" stereotype="interface" id="{UMLID=_gTci8KB-EdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommand}" runTimeClassModel="getCurrentVersion(Ljava.lang.String;),getEspecificVersion(Ljava.lang.String;Ljava.lang.Integer;),delete(Ljava.lang.String;),register(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,72">
+      <children xsi:type="editmodel:MethodEditModel" name="register" id="{UMLID=_XK7p0KB_EdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommand#register(Ljava.lang.String;Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="delete" id="{UMLID=_h4IMUKB_EdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommand#delete(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentVersion" id="{UMLID=_r6zyMKB_EdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommand#getCurrentVersion(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEspecificVersion" id="{UMLID=_955N8KB_EdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommand#getEspecificVersion(Ljava.lang.String;Ljava.lang.Integer;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DocumentCommandImplementation" location="1090,1040" size="644,120" stereotype="" id="{UMLID=_XrFUEKCAEdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommandImplementation}" runTimeClassModel="getCurrentVersion(Ljava.lang.String;),delete(Ljava.lang.String;),getEspecificVersion(Ljava.lang.String;Ljava.lang.Integer;),register(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,72">
+      <children xsi:type="editmodel:MethodEditModel" name="delete" id="{UMLID=_XrYPAKCAEdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommandImplementation#delete(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentVersion" id="{UMLID=_X4DZEKCAEdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommandImplementation#getCurrentVersion(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEspecificVersion" id="{UMLID=_XrPFEKCAEdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommandImplementation#getEspecificVersion(Ljava.lang.String;Ljava.lang.Integer;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="register" id="{UMLID=_X4IRkKCAEdyKl6NlRlQP_Q,JavaID=edu.axiacore.freedm.controller.document/DocumentCommandImplementation#register(Ljava.lang.String;Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

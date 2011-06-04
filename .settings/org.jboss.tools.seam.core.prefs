@@ -1,0 +1,9 @@
+#Fri Nov 23 23:25:11 GMT 2007
+action.package=edu.axiacore.freedm.session
+eclipse.preferences.version=1
+model.package=edu.axiacore.freedm.entity
+seam.project.connection.profile=mySQL
+seam.project.deployment.type=war
+seam.runtime.name=Seam 1.2.AP
+seam.test.project=FreeDM-test
+test.package=edu.axiacore.freedm.test

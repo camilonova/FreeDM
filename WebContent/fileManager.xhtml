@@ -1,0 +1,100 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+                             "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:s="http://jboss.com/products/seam/taglib"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:rich="http://richfaces.ajax4jsf.org/rich"
+                xmlns:a="https://ajax4jsf.dev.java.net/ajax"
+                template="layout/template.xhtml"
+                xmlns:a4j="http://richfaces.org/a4j">
+                       
+    <style>
+        .col, .col2 {
+            width:50%;
+            vertical-align:top;
+        }
+    </style>
+    
+    <ui:define name="body">
+
+    <h:messages globalOnly="true" styleClass="message"/>
+
+    <rich:panel>
+        <f:facet name="header">Administrador de archivos</f:facet>
+    
+	    <h:form id="FileManagerForm" enctype="multipart/form-data">
+			<rich:panel>
+		        <s:button view="/fileManager.xhtml" id="update" value="Actualizar" />
+				|
+	            <h:commandButton id="downloadFile" value="Descargar" action="#{fileManager.downloadFile}" />
+				|
+	            <h:commandButton id="deleteFile" value="Eliminar" action="#{fileManager.deleteFile}" />
+			</rich:panel>
+
+	        <h:panelGrid columns="2" width="100%" columnClasses="col1, col2">
+	            <rich:tree style="width:80px" nodeSelectListener="#{fileManager.processSelection}" 
+	                reRender="detailPanel" ajaxSubmitSelection="true" switchType="client"
+	                value="#{fileManager.treeNode}" var="item">
+	            </rich:tree>
+	            
+	            <rich:panel id="detailPanel">
+		            <h:outputText value="Nombre: #{fileManager.selectedDocument.fileName}" id="fileName" />
+		            <p />
+		            <h:outputText value="Version: #{fileManager.selectedDocument.version}" id="version" />
+		            <p />
+		            <h:outputText value="Tipo: #{fileManager.selectedDocument.contentType}" id="contentType" />
+		            <p />
+		            <h:outputText value="Ultima Modificacion: #{fileManager.selectedDocument.lastModification}" id="lastModification" />
+		            <p />
+		            <h:outputText value="Autor: #{fileManager.selectedDocument.userId}" id="userId" />
+		            
+		            <rich:panel rendered="#{not empty fileManager.selectedDocument}" >
+						<!-- Esto con los botones no me convence, hay que ver como es la forma correcta de hacerlo -->
+						<h:commandButton id="showFolderDialog" type="reset" value="Crear Carpeta" onclick="javascript:Richfaces.showModalPanel('FileManagerForm:folderPanel');" />
+						|
+						<h:commandButton id="showFileDialog" type="reset" value="Subir Archivo" onclick="javascript:Richfaces.showModalPanel('FileManagerForm:filePanel');" />
+						|
+				        <s:button view="/fileHistory.xhtml" id="fileHistory" value="Ver Historial">
+				            <f:param name="fileName" value="#{fileManager.selectedDocument.fileName}"/>
+				        </s:button>
+		            </rich:panel>
+	            </rich:panel>
+	        </h:panelGrid>
+	        
+			<!-- Desde aqui crear carpeta -->	         
+		    <rich:modalPanel id="folderPanel" height="150" >
+			    <f:facet name="header">Crear Carpeta</f:facet>
+			    <center>
+				    <p>Ingrese el nombre de la carpeta:</p>
+				    <h:inputText value="#{fileManager.folderName}"/>
+					<p />
+					<h:commandButton id="createFolder" value="Crear carpeta" action="#{fileManager.addFolder}"/>
+					<h:commandButton id="cancelFolder" value="Cancelar" onclick="javascript:Richfaces.hideModalPanel('FileManagerForm:folderPanel')" />
+				</center>
+			</rich:modalPanel>
+			<!-- Hasta aqui crear carpeta -->
+			
+			<!-- Desde aqui subir archivo -->	         
+		    <rich:modalPanel id="filePanel" height="150" >
+			    <f:facet name="header">Subir Archivo</f:facet>
+			    <center>
+			    	<p>Seleccione el archivo a subir (10M max.):</p>
+			        <s:fileUpload id="fileUpload" data="#{uploadFile.file}" contentType="#{uploadFile.contentType}"
+		     						fileName="#{uploadFile.fileName}" fileSize="#{uploadFile.fileSize}" />
+			        <p />
+		            <h:commandButton id="uploadFile" value="Cargar" action="#{uploadFile.upload}"/>
+					<h:commandButton id="cancelFile" value="Cancelar" onclick="javascript:Richfaces.hideModalPanel('FileManagerForm:filePanel')" />
+				</center>
+			</rich:modalPanel>
+			<!-- Hasta aqui subir archivo --> 
+			
+		</h:form>
+			        
+    </rich:panel>
+		       
+</ui:define>
+
+</ui:composition>
+

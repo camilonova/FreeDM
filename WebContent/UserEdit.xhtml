@@ -1,0 +1,110 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+                             "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:s="http://jboss.com/products/seam/taglib"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:a="https://ajax4jsf.dev.java.net/ajax"
+                xmlns:rich="http://richfaces.ajax4jsf.org/rich"
+                template="layout/template.xhtml">
+                       
+<ui:define name="body">
+    
+    <h:messages globalOnly="true" styleClass="message" id="globalMessages"/>
+
+    <h:form id="user" styleClass="edit">
+    
+        <rich:panel>
+            <f:facet name="header">Edit User</f:facet>
+
+            <s:decorate id="emailDecoration" template="layout/edit.xhtml">
+                <ui:define name="label">email</ui:define>
+                <h:inputTextarea id="email"
+                               cols="80"
+                               rows="3"
+                              value="#{userHome.instance.email}"/>
+            </s:decorate>
+
+            <s:decorate id="fullNameDecoration" template="layout/edit.xhtml">
+                <ui:define name="label">fullName</ui:define>
+                <h:inputText id="fullName" 
+                           size="50"
+                      maxlength="50"
+                          value="#{userHome.instance.fullName}">
+                    <a:support event="onblur" reRender="fullNameDecoration"/>
+                </h:inputText>
+            </s:decorate>
+
+            <s:decorate id="passwordDecoration" template="layout/edit.xhtml">
+                <ui:define name="label">password</ui:define>
+                <h:inputText id="password" 
+                           size="20"
+                      maxlength="20"
+                          value="#{userHome.instance.password}">
+                    <a:support event="onblur" reRender="passwordDecoration"/>
+                </h:inputText>
+            </s:decorate>
+
+            <s:decorate id="userNameDecoration" template="layout/edit.xhtml">
+                <ui:define name="label">userName</ui:define>
+                <h:inputText id="userName" 
+                           size="20"
+                      maxlength="20"
+                          value="#{userHome.instance.userName}">
+                    <a:support event="onblur" reRender="userNameDecoration"/>
+                </h:inputText>
+            </s:decorate>
+
+            <s:decorate id="roleDecoration" template="layout/edit.xhtml">
+                <ui:define name="label">role</ui:define>
+                <h:inputTextarea id="role"
+                               cols="80"
+                               rows="3"
+                              value="#{userHome.instance.role}"/>
+            </s:decorate>
+        
+            <div style="clear:both">
+                <span class="required">*</span> 
+                required fields
+            </div>
+            
+        </rich:panel>
+                
+        <div class="actionButtons">
+
+            <h:commandButton id="save" 
+                          value="Save" 
+                         action="#{userHome.persist}"
+                       disabled="#{!userHome.wired}"
+                       rendered="#{!userHome.managed}"/>  
+                          			  
+            <h:commandButton id="update" 
+                          value="Save" 
+                         action="#{userHome.update}"
+                       rendered="#{userHome.managed}"/>
+                        			  
+            <h:commandButton id="delete" 
+                          value="Delete" 
+                         action="#{userHome.remove}"
+                       rendered="#{userHome.managed}"/>
+                    
+            <s:button id="done" 
+                   value="Done"
+             propagation="end"
+                    view="/User.xhtml"
+                rendered="#{userHome.managed}"/>
+                
+            <s:button id="cancel" 
+                   value="Cancel"
+             propagation="end"
+                    view="/#{empty userFrom ? 'UserList' : userFrom}.xhtml"
+                rendered="#{!userHome.managed}"/>
+
+        </div>
+    </h:form>
+
+</ui:define>
+
+</ui:composition>
